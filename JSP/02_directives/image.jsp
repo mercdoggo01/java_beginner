@@ -1,0 +1,1 @@
+<h1 style="background-color: green; color: white;">Other page</h1>
