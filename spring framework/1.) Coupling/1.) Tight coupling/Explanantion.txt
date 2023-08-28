@@ -1,0 +1,37 @@
+The above code is made in a MAVEN project by using spring initialiser.
+
+The package name is merc
+The artificat name is learn-spring-framework
+
+The project is started by using Import existing under MAVEN in Eclipse EE IDE.
+
+The main class which is TankBasicJava has a main method.
+
+An instance of class TypeSeventyTwoBThree is made and name tank.
+Similarly an instance of class Gun is made with the name gun.
+
+In the class Gun a private object of TypeSeventyTwoBThree name t72b3 is declared.
+
+A constructor of the class Gun is made which accepts this object.
+
+A method called fire is made which prints the information about the tank model
+As well as calls all the methods for the t72b3 object.
+
+
+Now, if we want to create another class called LeopardTwo with object name tankLeopard 
+and use the Gun class then we have to make an object of LeopardTwo and pass it to the
+constructor to utilise the fire() method. 
+
+Hence, this is an application of Tightly coupled application where change in one place
+will correspond to changes in other places.
+
+
+Similer example of this is a car.
+
+A car engine is a tightly coupled to the car and takes lot of effort to change.
+On the other hand a tyre is loosely coupled to a car and can be easily changed. 
+
+
+
+Therefore in Java to improve code functionality with very few changes Java interfaces and 
+the Spring Framework is very useful
