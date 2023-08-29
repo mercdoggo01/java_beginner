@@ -1,0 +1,8 @@
+In the previous example, we have noticed how for each new object 
+of different class many things had to be changed.
+
+Now, to make application loosely coupled, we will implement an interface
+Name TypeOfProjectile which will be implemented by both classes.
+
+The interface will have the methods of both the classes. Therefore to use 
+objects of both the classes one simply needs to comment one and the other will run.
