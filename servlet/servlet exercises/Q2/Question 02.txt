@@ -1,4 +1,0 @@
-Develop an application using HTTP servlet to process the form data.
-
-
-NOTE: solution uses bootstrap
