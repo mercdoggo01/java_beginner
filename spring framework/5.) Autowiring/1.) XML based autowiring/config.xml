@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->	
+	<bean class="com.joy.Spring_Autowiring.Address" name="address">
+		<property name="city" value="Pune"/>
+		<property name="state" value="Maharashtra"/>
+	</bean>
+	
+	
+   <!-- 0.) Default No -->
+
+   <!-- 1.) ByName -->
+    <!-- <bean class="com.joy.Spring_Autowiring.Student" name="st" autowire="byName">
+	</bean> -->
+	
+	<!-- 2.) ByType -->
+    <!-- <bean class="com.joy.Spring_Autowiring.Student" name="st" autowire="byType">
+	</bean> -->
+	
+	<!-- 3.) Constructor -->
+	<bean class="com.joy.Spring_Autowiring.Student" name="st" autowire="constructor">
+	</bean>
+
+</beans>
